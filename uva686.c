@@ -3,10 +3,7 @@
 #include <stdlib.h>
 
 int main(){
-    /*freopen("in.txt","r",stdin);
-    freopen("out.txt","w",stdout);*/
 	int n;
-
 	int prime[32769]={0};
 
     prime[0]=1; prime[1]=1;
@@ -29,6 +26,4 @@ int main(){
         printf("%d\n",count);
     }
     return 0;
-    /*fclose(stdin);
-	fclose(stdout);*/
 }
